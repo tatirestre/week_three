@@ -1,0 +1,10 @@
+# Examples week 3
+puts "Cat or Dog?"
+animal = gets.chomp
+if animal.downcase == "cat"
+	puts "the #{animal} makes miauuu"
+elsif animal.downcase == "dog"
+	puts "the #{animal} makes guauuu"
+	else 
+		puts "I don't know that animal. Type in Cat or Dog" 
+end
